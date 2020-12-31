@@ -8,8 +8,8 @@ const tl = new TimelineMax();
 tl.fromTo(
     illustration,
     1,
-    { height: "0%" },
-    { height: "100%", ease: Power2.easeInOut }
+    { y: "100%" },
+    { y: "0%", ease: Power2.easeInOut }
 )
 
     .fromTo(
@@ -24,5 +24,4 @@ tl.fromTo(
         2,
         { x: "-100%" },
         { x: "0%", ease: Power2.easeInOut }
-
     )
