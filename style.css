@@ -55,6 +55,7 @@ header {
     align-items: center;
     position: absolute;
     left: 10%;
+    cursor: pointer;
 }
 
 .hamburger {
