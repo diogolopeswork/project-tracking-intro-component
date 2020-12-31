@@ -17,6 +17,10 @@
    
 }
 
+.c-hamburger {
+    display: none;
+}
+
 .attribution { 
     bottom: 1%;
     position: absolute;
@@ -206,15 +210,14 @@ button:hover {
         right: 10%;
     }
 
-    .hamburger #close {
+    #c-hamburger {
         display: none;
         position: absolute;
         top: 3.5%;
         right: 10%;
-    }
-
-    .hamburger.close #close {
-        display: block;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
 
     header {
@@ -225,25 +228,34 @@ button:hover {
 
     .nav {
         position: absolute;
-        right: 0;
-        display: flex;
+        top: 15%;
+        right: 0%;
+        display: none;
         flex-direction: column;
-        transform: translateX(100%);
-        transition: .7s ease-in-out;
+        z-index: 10;
+        background: white;
+        width: 100%;
+        height: 40%;
+        font-size: 20px;
+        transition: 1s ease-in-out;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
     }
 
     .active {
         position: absolute;
+        top: 15%;
+        right: 0%;
         display: flex;
         flex-direction: column;
-        width: 80%;
-        height: 30%;
-        background: white;
-        color: var(--VeryDarkBlue);
-        transform: translateX(0);
         z-index: 10;
-        top: 20%;
-        right: 10%;
+        background: white;
+        width: 100%;
+        height: 40%;
+        font-size: 20px;
+        transition: 1s ease-in-out;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
     }
 
     .left-panel {
