@@ -241,6 +241,55 @@ button:hover {
         top: 20%;
         right: 10%;
     }
+
+    .left-panel {
+        margin: -80px 0px 0px 20px;
+        width: 90%;
+        height: 45%;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 60%;
+    }
+
+    .left-panel h3 {
+        margin: 0px 0 0 10px;
+    }
+
+    .left-panel h1 {
+        font-size: 35px;
+        margin: 30px 0 0 0;
+    }
+
+    .left-panel p {
+        font-size: 18px;
+        width: 85%;
+        margin: 20px 0 0 40px;
+    }
+
+    .left-panel button {
+        font-size: 12px;
+        margin: 20px 0 0 -100px;
+    }
+
+    .left-panel h4 {
+        font-size: 12px;
+        margin: -30px 0px 0px 200px;
+    }
+
+    .right-panel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #illustration {
+        position: absolute;
+        top: 25%;
+        left: -100%;
+        width: 300%;
+    }
 }
 
 @media screen and (min-width: 1500px) {
