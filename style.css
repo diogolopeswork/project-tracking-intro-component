@@ -195,6 +195,10 @@ button:hover {
         overflow: hidden;
     }
 
+    #grey {
+        border-top: 1px solid var(--GrayishBlue);
+    }
+
     .hamburger {
         display: block;
         position: absolute;
